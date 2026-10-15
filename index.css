@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#html {
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+  right: 10px;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  cursor: default;
+}
+
+body {
+  background-color: #0d0d0d;
+}
+
+section {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 750px;
+  height: 400px;
+}
+
+.header {
+  position: relative;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  top: 10px;
+  cursor: default;
+}
+
+#intro {
+  position: relative;
+}
+
+.base-text {
+  color: #cfcfcf;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  cursor: default;
+}
+
+#name {
+  color: #950101;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  cursor: default;
+}
+
+#info {
+  position: relative;
+  height: 130px;
+  width: 250px;
+  bottom: 0px;
+  background-color: #0d0d0d;
+}
+
+#location {
+  position: relative;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  bottom: 40px;
+  left: 30px;
+}
+
+#location-icon {
+  position: relative;
+  height: 25px;
+  width: 25px;
+}
+
+#location-title {
+  position: relative;
+  height: 25px;
+  top: 10px;
+  cursor: default;
+}
+
+#age {
+  position: relative;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  bottom: 39.5px;
+  left: 30px;
+}
+
+#age-icon {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  left: 1.5px;
+}
+
+#age-title {
+  position: relative;
+  height: 25px;
+  top: 16px;
+  cursor: default;
+}
+
+#source {
+  position: relative;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  bottom: 39.5px;
+  left: 30px;
+}
+
+#source-icon {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  left: 1.5px;
+}
+
+#source-title {
+  position: relative;
+  height: 25px;
+  top: 18px;
+  cursor: default;
+}
+
+#calendar {
+  position: relative;
+  color: #797979;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  bottom: 39.5px;
+  left: 30px;
+}
+
+#calendar-icon {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  left: 1.5px;
+}
+
+#calendar-title {
+  position: relative;
+  height: 25px;
+  top: 20px;
+  cursor: default;
+}
+
+#about-1 {
+  position: relative;
+  background-color: #0d0d0d;
+  height: 110px;
+  width: 330px;
+  bottom: 10px;
+}
+
+#desc {
+  position: relative;
+  color: #cfcfcf;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500
+}
+
+#selfie {
+  position: relative;
+  width: 300px;
+  bottom: 330px;
+  left: 450px;
+}
+
+#placeholder {
+  position: relative;
+  width: 300px;
+  border-radius: 100%;
+}
+
+.project-box {
+  position: relative;
+  border: #79797940 2px solid;
+  transition: 0.3s ease;
+  height: 315px;
+  width: 220px;
+  border-radius: 20px;
+}
+
+.project-title {
+  position: relative;
+  color: #797979;
+  margin-bottom: 0px;
+  left: 37px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500
+}
+
+#project-1 {
+  position: relative;
+  width: 220px;
+  height: 335px;
+}
+
+#project-1-title {
+  width: 150px;
+  transition: 0.3s ease;
+}
+
+#portfolio-icon {
+  position: relative;
+  width: 220px;
+  left: 0px;
+  top: 0px;
+  border-bottom: #79797940 2px solid;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+#portfolio-desc {
+  position: relative;
+  left: 15px;
+  bottom: 10px;
+  color: #797979;
+  transition: 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500
+}
+
+#project-1-link {
+  display: block;
+  position: relative;
+  width: 220px;
+  height: 335px;
+  text-decoration: none;
+}
+
+#project-1-link:hover .project-1-hover {
+  border-color: #cfcfcf;
+}
+
+#project-1-link:hover .project-1-hover-text {
+  color: #cfcfcf;
+}
+
+.contact-link {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  left: 2px;
+  color: #79B8FF;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500
+}
+
+footer {
+  position: relative;
+  height: 150px;
+}
+
+#contact {
+  position: relative;
+  height: 150px;
+}
